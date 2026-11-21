@@ -259,3 +259,17 @@ stop.bat                   停止后台实例（双击即可）
 本仓库不包含微软的任何二进制文件、符号文件、PDB 或反汇编清单。文中对行为机制的所有描述，均来自可观察行为（进程内 API 返回值、视图索引变化、通知到达次序）与公开 API 文档的对照，结论以"什么条件下会发生什么"的形式表述，供任何人独立复现。
 
 本项目使用了 AI/LLM ***大肥鱼***（DeepSeek V4.1 Flash 1017）辅助分析、代码生成和文档撰写。
+
+---
+
+## 关键词 / Keywords
+
+下面是**症状**的常见描述（不是机制），方便搜到这里的人撞上：
+
+中文：资源管理器 新建文件 排在最后 · 排序不刷新 · 要按 F5 才归位 · 修改日期排序 文件不动 ·
+文件出现在列表底部不下来 · 文件夹内容变化后顺序不对
+
+English: File Explorer new file appears at the bottom of a sorted folder · Explorer does not
+auto-refresh after creating a file · sort by date modified puts file at bottom · Windows 11
+Explorer sort order not updating · F5 needed to refresh Explorer · created file not in
+alphabetical order until refresh
